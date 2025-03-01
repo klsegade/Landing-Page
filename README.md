@@ -14,8 +14,6 @@ Let's get to it!
 ///
 
 Notes after finishing and submitting:
-Working on buttons was helpful ... understood better how to manipulate that.
-Flexboxes feel much easier to work with now.
-Overall learned a lot more comfortable with the basics, and while I may not be 
-making the most condensed/optimized pages, I have a better understanding of how it 
+
+Working on buttons was helpful ... understood better how to manipulate that. Flexboxes feel much easier to work with now. Overall learned a lot more comfortable with the basics, and while I may not be making the most condensed/optimized pages, I have a better understanding of how it 
 clicks together.
