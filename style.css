@@ -10,7 +10,7 @@ body    {
 button {
     border: 0;
     border-radius: 8px;
-    padding: 8px;
+    padding: 8px 24px;
     font-size: 16px;
     font-weight: 700;
     font-family: Roboto, Papyrus, Verdana, sans-serif;
@@ -23,6 +23,8 @@ button {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
 }
 
 .topbar {
@@ -35,7 +37,6 @@ button {
     font-size: 24px;
     font-weight: 900;
     color: #f9faf8;
-    margin-left: 40px;
     margin-top: 10px;
 }
 
@@ -48,8 +49,8 @@ ul  {
 
 .mainhead   {
     display: flex;
-    margin-left: 40px;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 150px;
 }
 
 .lefthead   {
@@ -69,11 +70,8 @@ ul  {
 
 button#butt {
     color: #e5e7eb;
-    background-color: #2273b9;
-}
-
-.righthead  {
-    flex: 0 0 50%;
+    background-color: #3882F6;
+    width: 150px;
 }
 
 a, .subtext    {
@@ -87,3 +85,113 @@ a, .subtext    {
 }
 
 /* SECOND FLEX CONTAINER */
+
+.info   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin: 80px 0px;
+    padding-left: 40px;
+}
+
+.info .header   {
+    background-color: #f9faf8;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info .subtext  {
+    color: #1F2937;
+    max-width: 200px;
+    text-align: center;
+}
+
+.content    {
+    display: flex;
+    gap: 40px;
+}
+
+.info img {
+    width: 200px;
+    height: auto; 
+    border: 2px solid #3882F6; 
+    border-radius: 8px;
+    background-color: #787878
+  }
+
+  /* THIRD FLEX CONTAINER */
+
+  .quotebox {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 40px;
+    padding: 100px 0;
+    gap: 25px;
+  }
+
+  div#quote   {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 900px;
+  }
+
+  div#quotee  {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: right;
+    min-width: 700px;
+    color: #1F2937;  
+}
+
+/* FOURTH FLEX CONTAINER */
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.signupbox  {
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px 150px;
+    border-radius: 8px;
+    align-items: center;
+    gap: 50px;
+}
+
+div#header  {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8 ;
+    max-width: 550px;
+}
+
+.signupbox .subtext {
+    max-width: 550px;
+}
+
+button#butt2    {
+    color: #f9faf8;
+    border: 3px solid #f9faf8;
+    background-color: #3882F6;
+    min-width: 140px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* FIFTH FLEX CONTAINER */
+
+.footer {
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 550;
+    text-align: center;
+    padding: 50px;
+}
